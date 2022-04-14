@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #FFE285;
+}
+
+html {
+  
+}
+
+nav {
+  background-color: #A64242;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 1.95rem;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #C799A6;
+}
+
+h1 {
+	text-align: center;
+	}
+
+.contact {
+	text-align: center;
+    }
+    
+.social {
+  display: flex;
+  justify-content: space-around;
+  decoration
+}
+
+.social a {
+  display: flex;
+  align-item: space-around;
+}
+
+footer {
+  color: #A64242;
+  text-align: center;
+}
